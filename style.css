@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+body {
+	font-family: 'Lato', sans-serif;
+	color: #505962;
+}
+
+.offset:before {
+	height: 5.1rem;
+	margin-top: -5.1rem;
+	content: "";
+	display: block;
+}
+
+/*---Navbar--*/
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: rgba(0,0,0,.6);
+}
+.navbar-nav li{
+	padding: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+	padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #ff7800;
+}
+#about {
+	justify-content: center;
+	display: flex;
+}
+video {
+	width: 50%;
+}
+
+/*---slider---*/
+.carousel-item {
+	height: 100vh;
+	background-size: cover;
+  	background-position: 50% 50%;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 38%;
+	text-transform: uppercase;
+	width: 100%;
+	right: 0;
+	left: 0;
+}
+
+.carousel-caption h1 {
+	font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem #ff7800;
+	padding-bottom: 1rem;
+}
+
+.carousel-caption p {
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .3rem #ff7800;
+	padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+	font-size: 1.1rem;
+	border-width: medium;
+}
+
+.portfolio img {
+	transition: transform 1s ease;
+}
+
+.row.no-padding [class*=col-]{
+	padding: 0;
+}
+
+#portfolio .row {
+	margin-right:0;
+	margin-left: 0;
+}
+
+.portfolio img:hover {
+	transform: scale(1.1);
+	cursor: zoom-in;
+}
+
+.porfolio {
+	overflow: hidden;
+}
+
+/*-----shop-----*/
+.jumbotron {
+	border-radius: 0;
+	padding: 3rem 0 2rem;
+	margin-bottom: 0;
+}
+
+h1.heading {
+	font-size: 1.9rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 1.9rem;
+}
+
+.heading-underline {
+	width: 3rem;
+	height: .2rem;
+	background-color: #ff7800;
+	margin: 0 auto 2rem;
+}
+
+/*icon*/
+.shoe, #team, #contact{
+	padding: 2rem 0; 
+}
+#team {
+	margin-bottom: 3rem;
+}
+.shoe-icon,.clothes-icon {
+	text-align: center;
+}
+
+/*.container {
+	margin-bottom: 30px;
+}*/
+
+/*-----row-----*/
+/*.row {
+	margin-right: 0;
+	margin-left: 0;
+}*/
+.col-sm-4 {
+	padding: 0;
+}
+.col-sm-12 {
+	padding-top: 50px;
+}
+
+
+/*card*/
+/*.card {
+	margin-left: 30px;
+}*/
+/*.col-md-6 {
+	padding: 30px
+	margin-right: 0;
+	margin-left: 0;
+}*/
+.card {
+	margin: 2rem;
+}
+.card-img-top {
+	height: 55vh;
+	width: 55vh;
+	margin: 1rem;
+}
+
+#contact {
+	background-color: #000;
+	color: #fff;
+	padding: 2rem 0 3rem;
+	margin-top: 1rem;
+}
+footer img {
+	margin: 1.5rem 0;
+}
+footer svg.svg-inline--fa {
+	font-size: 2 rem;
+	margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+	transition: 0.7s ease;
+	color: #ff7800;
+}
+.container hr.socket {
+	border-top: .1rem solid #666b71;
+	width: 100%;
+}
